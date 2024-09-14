@@ -18,8 +18,8 @@ $hoy = date("Y-m-d");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/gestiondepartamentoalumnos/css/bootstrap.min.css">
     <link rel="stylesheet" href="/gestiondepartamentoalumnos/css/templatemo-upright.css">
-    <link rel="stylesheet" href="/gestiondepartamentoalumnos/css/style.css">
-    <link rel="stylesheet" href="/gestiondepartamentoalumnos/css/styleButtonX.css"><!----===== CA01:  ruta estilo boton eliminar pdf e img ===== -->
+    
+    <link rel="stylesheet" href="../css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> <!----===== Boxicons CSS ===== -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> <!--<title>Dashboard Sidebar Menu</title>-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"> <!-- Toastify CSS -->

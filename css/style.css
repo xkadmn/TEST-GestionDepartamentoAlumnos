@@ -592,7 +592,7 @@ body.dark-theme {
 .modal {
   display: none; /* Oculto por defecto */
   position: fixed; /* Fijo */
-  z-index: 1; /* Sobre otros elementos */
+  z-index: 5; /* Sobre otros elementos */
   left: 0;
   top: 0;
   margin-left: 88px;
@@ -709,6 +709,7 @@ body.dark-theme {
 }
 
 .btn-primary-buscar {
+  position: absolute; /* PER01-1*/
   border-radius: 0 30px 30px 0;
   background-color: #007bff;
   border: none;
@@ -718,11 +719,28 @@ body.dark-theme {
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease;
+  z-index: 1; /* PER01-1*/
 }
 
 .btn-primary-buscar:hover {
   background-color: #0056b3;
 }
+
+
+.input-group {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #000204, 0 0 20px #ffffff; /* Efecto de neón */
+  position: relative; 
+}
+.input-pass {
+  height: 35px;
+  width: 50%;
+  border-radius: 30px;
+  font-weight: bold;
+}
+/*CA01: boton eliminar pdf e img*/
 .btn-iconX {
   display: flex;
   align-items: center;
@@ -744,19 +762,3 @@ body.dark-theme {
   display: flex;
   align-items: center;
 }
-
-.input-group {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-  font-size: 14px;
-  font-weight: bold;
-  box-shadow: 0 0 10px #000204, 0 0 20px #ffffff; /* Efecto de neón */
-}
-.input-pass {
-  height: 35px;
-  width: 50%;
-  border-radius: 30px;
-  font-weight: bold;
-}
-
